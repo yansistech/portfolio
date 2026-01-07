@@ -1,0 +1,364 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Yan's Tech — Portfolio</title>
+  <link rel="shortcut icon" href="/logo.png" type="image/png">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- PRELOADER -->
+  <div id="preloader" class="preloader">
+    <div class="preloader__spinner" aria-hidden="true"></div>
+  </div>
+
+  <!-- HEADER / NAV -->
+  <header class="site-header">
+    <nav class="nav container">
+      <div class="brand">
+        <img src="logo.png" alt="Yan's Tech logo" class="brand__logo">
+        <div class="brand__text">
+          <span class="brand__name">Yan's Tech</span>
+          <span class="brand__tag">Building digital identities that inspire</span>
+        </div>
+      </div>
+
+      <ul class="nav__links" role="menubar">
+        <li><a href="#home" class="nav__link">Home</a></li>
+        <li><a href="#about" class="nav__link">About</a></li>
+        <li><a href="#services" class="nav__link">Service</a></li>
+        <li><a href="#projects" class="nav__link">Projects</a></li>
+        <li><a href="#contact" class="nav__link">Contact</a></li>
+      </ul>
+
+      <div class="nav__actions">
+        <a class="btn btn--primary" href="Iyanuoluwa Cv.docx" download>Download CV</a>
+        <button id="themeToggle" class="btn btn--icon" aria-label="Toggle theme">🌙</button>
+        <button id="mobileToggle" class="btn btn--icon mobile-only" aria-label="Open menu">☰</button>
+      </div>
+    </nav>
+
+    <!-- mobile menu -->
+    <div id="mobileMenu" class="mobile-menu" aria-hidden="true">
+      <ul>
+        <li><a href="#home" class="mobile-link">Home</a></li>
+        <li><a href="#about" class="mobile-link">About</a></li>
+        <li><a href="#services" class="mobile-link">Service</a></li>
+        <li><a href="#projects" class="mobile-link">Projects</a></li>
+        <li><a href="#contact" class="mobile-link">Contact</a></li>
+        <li><a href="Iyanuoluwa Cv.docx" download class="mobile-link">Download CV</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section id="home" class="hero">
+      <div class="container hero__wrap">
+        <div class="hero__left">
+          <h1 class="hero-title">
+            <span class="name">I am Iyanu, a Frontend Developer</span>
+          </h1>
+
+          <h1 class="hero__title">I build pixel-perfect websites with <span id="typed" class="typed" style="color: rgb(48, 9, 221);"></span></h1>
+          <p class="hero__lead">
+            I specialize in using clean HTML and advanced CSS to build websites that are fast, responsive, and
+            accessible. Every site I create focuses on excellent performance, ensuring that it looks great and works
+            perfectly across all devices.
+          </p>
+
+          <div class="hero__ctas">
+            <a href="#contact" class="btn btn--ghost">Hire me</a>
+            <a href="#projects" class="btn btn--ghost">View projects</a>
+          </div>
+
+          <ul class="stats">
+            <li><strong>2+</strong><span>Years</span></li>
+            <li><strong>2</strong><span>Projects</span></li>
+          </ul>
+        </div>
+
+        <div class="hero__right">
+          <div class="card floating">
+            <img src="logo.png" alt="" class="card__logo">
+            <h3 class="card__name">Iyanu Olaitan</h3>
+            <p class="card__role">HTML & CSS Specialist</p>
+            <div class="card__details">
+              <div><span>From Lagos, Nigeria</span></div>
+              <div><span>Contact: +234 810 5030 950</span></div>
+            </div>
+            <div class="socials">
+              <a href="https://wa.link/943lb1" aria-label="WhatsApp" class="icon">
+                <svg width="18" viewBox="0 0 32 32" fill="currentColor">
+                  <path
+                    d="M16.04 2.666C8.96 2.666 3.333 8.293 3.333 15.373c0 2.64.72 5.2 2.08 7.44L3 29l6.36-2.32c2.12 1.16 4.52 1.76 6.72 1.76h.02c7.08 0 12.707-5.627 12.707-12.707 0-3.4-1.333-6.6-3.76-9.027-2.427-2.427-5.627-3.76-9.027-3.76z" />
+                </svg>
+              </a>
+
+              <a href="https://x.com/YansLegend" aria-label="X" class="icon">
+                <svg width="18" viewBox="0 0 24 24" fill="currentColor">
+                  <path
+                    d="M18.244 2H21l-6.53 7.455L22 22h-6.244l-4.54-6.232L5.85 22H3l7.21-8.228L2 2h6.244l4.087 5.592z" />
+                </svg>
+              </a>
+
+              <a href="https://github.com/Jiyanu123" aria-label="GitHub" class="icon">
+                <svg width="18" viewBox="0 0 24 24" fill="currentColor">
+                  <path
+                    d="M12 .5A12 12 0 0 0 0 12.7c0 5.38 3.44 9.93 8.2 11.54.6.1.82-.27.82-.6v-2.2c-3.34.74-4.04-1.6-4.04-1.6-.55-1.4-1.34-1.77-1.34-1.77-1.1-.75.08-.73.08-.73 1.2.1 1.84 1.25 1.84 1.25 1.08 1.85 2.83 1.3 3.52 1 .1-.8.42-1.3.76-1.6-2.67-.3-5.47-1.33-5.47-5.9 0-1.3.46-2.37 1.22-3.2-.12-.3-.53-1.53.1-3.2 0 0 1-.32 3.3 1.22a11.4 11.4 0 0 1 6 0c2.3-1.54 3.3-1.22 3.3-1.22.63 1.67.22 2.9.1 3.2.76.83 1.22 1.9 1.22 3.2 0 4.6-2.8 5.6-5.5 5.9.43.37.82 1.1.82 2.2v3.25c0 .33.22.7.83.6A12 12 0 0 0 24 12.7 12 12 0 0 0 12 .5z" />
+                </svg>
+              </a>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="section">
+      <div class="container grid-about">
+        <div class="about__left">
+          <h2>About</h2>
+          <p class="lead">
+            I’m a front-end developer who turns designs into websites that look great on any device. I focus on fast,
+            accessible, and easy-to-use websites. My code is clean, easy to read, and built to give visitors a smooth
+            experience.
+          </p>
+
+          <p>
+            I specialize in using clean HTML and advanced CSS to build websites that are fast, responsive, and
+            accessible. Every site I create focuses on excellent performance, smooth user experience, and maintainable
+            code, ensuring that it looks great and works perfectly across all devices.
+          </p>
+
+          <ul class="list-features">
+            <li>Pixel-perfect implementations</li>
+            <li>Responsive & fluid layouts</li>
+            <li>Accessibility-first markup</li>
+            <li>Performance optimizations</li>
+            <li>CSS animations & micro-interactions</li>
+            <li>Code documentation & handoff</li>
+          </ul>
+        </div>
+
+        <div class="about__right">
+          <div class="process card">
+            <h3>How I work</h3>
+            <ol>
+              <li><strong>Ideate:</strong> Brainstorm concepts and gather client requirements</li>
+              <li><strong>Yield:</strong> Produce initial wireframes, mockups & prototypes</li>
+              <li><strong>Assemble:</strong> Build the structure with semantic HTML & modular CSS</li>
+              <li><strong>Navigate:</strong> Refine UX, accessibility & cross-device performance</li>
+              <li><strong>Unleash:</strong> Deliver polished code, documentation & final product</li>
+            </ol>
+          </div>
+
+          <div class="skills card">
+            <h3>Tools & stack</h3>
+            <div class="skill-grid">
+              <span>HTML5</span><span>CSS3</span><span>Flexbox</span>
+              <span>Grid</span><span>SCSS (optional)</span><span>Git</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SERVICES -->
+    <section id="services" class="section section--accent">
+  <div class="container">
+    <h2>Services</h2>
+    <p class="lead">Here’s what I can do for you as a front-end developer.</p>
+
+    <div class="services-grid">
+      <article class="service card floating-little">
+        <h3>Responsive Websites</h3>
+        <p>I build websites that look great on all devices—phones, tablets, and desktops.</p>
+        <ul>
+          <li>Layouts that adapt to any screen</li>
+          <li>Fast-loading websites</li>
+          <li>Optimized images and files</li>
+        </ul>
+      </article>
+
+      <article class="service card floating-little">
+        <h3>Clean & Accessible Code</h3>
+        <p>I write clean HTML that’s easy to read, SEO-friendly, and works for everyone, including people using assistive tools.</p>
+        <ul>
+          <li>Accessible design basics</li>
+          <li>Screen-reader friendly content</li>
+          <li>Easy keyboard navigation</li>
+        </ul>
+      </article>
+
+      <article class="service card floating-little">
+        <h3>Modern CSS & Animations</h3>
+        <p>I create visually engaging websites using the latest CSS techniques and smooth animations that improve user experience.</p>
+        <ul>
+          <li>Transitions and animations</li>
+          <li>Supports reduced motion preferences</li>
+          <li>Organized and maintainable CSS</li>
+        </ul>
+      </article>
+    </div>
+  </div>
+</section>
+
+
+    <!-- PROJECTS -->
+    <section id="projects" class="section">
+      <div class="container">
+        <h2>Projects</h2>
+        <p class="lead">Selected projects demonstrating design-to-code work.</p>
+
+        <div class="projects-grid">
+  <!-- Project 1 -->
+  <article class="project card">
+    <div class="project__image">
+      <img src="/pic.png" alt="Yan's Net Academy Website screenshot" style="width:100%; height:100%; object-fit:cover;">
+    </div>
+    <div class="project__body">
+      <h4>Yan's Net Academy Website</h4>
+      <p>
+        A website created for the academy that outlines the institute's vision and mission with its programs.
+        There's also a client registration form that sends submissions directly to the institute's email.
+      </p>
+      <div class="project__links">
+        <a href="https://yansacad.github.io/Yans-Net-Academy/" class="link" style="color: orange;">Live</a>
+      </div>
+    </div>
+  </article>
+
+  <!-- Project 2 -->
+  <article class="project card">
+    <div class="project__image">
+      <img src="/pic2.png" alt="Personal Portfolio Website screenshot" style="width:100%; height:100%; object-fit: fill;">
+    </div>
+    <div class="project__body">
+      <h4>Personal Portfolio Website</h4>
+      <p>
+        A clean, easy-to-navigate portfolio that showcases my projects, skills, and services. Visitors can
+        quickly see my work and get in touch for freelance or contract opportunities.
+      </p>
+      <div class="project__links">
+        <a href="https://jiyanu123.github.io/portfolio" class="link" style="color: orange;">Live</a>
+      </div>
+    </div>
+  </article>
+</div>
+
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section section--dark">
+      <div class="container contact-grid">
+        <div>
+          <h2>Contact</h2>
+          <p class="lead">Reach out for freelance, contract, or full-time opportunities.</p>
+          <p><strong>Phone:</strong> +234 810 5030 950</p>
+          <p><strong>Email:</strong> <a href="mailto:yansistech@gmail.com" class="link">yansistech@gmail.com</a></p>
+
+          <div style="display:flex;gap:15px;align-items:center">
+
+            <a href="https://wa.link/943lb1" target="_blank" class="social-icon" style="margin-right: -5px;">
+              <svg width="32" height="30" viewBox="0 0 32 32" fill="none">
+                <path fill="#FFD700"
+                  d="M16.04 2.666C8.96 2.666 3.333 8.293 3.333 15.373c0 2.64.72 5.2 2.08 7.44L3 29l6.36-2.32c2.12 1.16 4.52 1.76 6.72 1.76h.02c7.08 0 12.707-5.627 12.707-12.707 0-3.4-1.333-6.6-3.76-9.027-2.427-2.427-5.627-3.76-9.027-3.76z" />
+                <path fill="#001A33"
+                  d="M23.067 19.88c-.387-.193-2.293-1.133-2.653-1.253-.36-.12-.627-.187-.893.187-.267.373-1.027 1.253-1.253 1.52-.227.267-.453.28-.84.093-.387-.187-1.6-.587-3.053-1.873-1.13-.993-1.893-2.213-2.12-2.6-.227-.387-.024-.6.17-.787.173-.172.387-.453.58-.68.193-.227.26-.387.387-.64.127-.253.06-.48-.027-.667-.093-.187-.893-2.16-1.227-2.947-.32-.753-.647-.647-.893-.66-.227-.013-.48-.013-.733-.013-.253 0-.666.094-1.013.48-.347.387-1.333 1.307-1.333 3.187 0 1.88 1.36 3.693 1.547 3.947.187.253 2.68 4.093 6.533 5.733.913.393 1.627.627 2.187.8.92.293 1.76.253 2.427.153.74-.107 2.293-.94 2.613-1.853.32-.913.32-1.693.227-1.853-.093-.16-.36-.253-.747-.447z" />
+              </svg>
+            </a>
+
+            <a href="https://x.com/yansacad?t=vI8K5eYJEk5ueQpKklEEWA&s=08" target="_blank" class="social-icon">
+              <svg width="28" height="28" fill="#FFD700" viewBox="0 0 24 24">
+                <path
+                  d="M18.244 2H21l-6.53 7.455L22 22h-6.244l-4.54-6.232L5.85 22H3l7.21-8.228L2 2h6.244l4.087 5.592L18.244 2zm-1.09 18h1.37L7.17 4h-1.4l10.383 16z" />
+              </svg>
+            </a>
+
+            <a href="https://www.linkedin.com/in/iyanuoluwa-olaitan-0632193a2/" target="_blank" class="social-icon"
+              style="margin-top: -5px;">
+              <svg width="28" height="28" fill="#FFD700" viewBox="0 0 24 24">
+                <path
+                  d="M4.98 3.5C4.98 4.88 3.88 6 2.5 6S0 4.88 0 3.5 1.12 1 2.5 1 4.98 2.12 4.98 3.5zM0 8h5v16H0V8zm7.5 0h4.7v2.2h.1c.65-1.2 2.25-2.2 4.65-2.2 4.95 0 5.85 3.25 5.85 7.45V24h-5V15.5c0-2.05-.04-4.7-2.85-4.7-2.85 0-3.3 2.23-3.3 4.53V24h-5V8z" />
+              </svg>
+            </a>
+
+            <a href="https://facebook.com/share/16ZuG5uYYw" target="_blank" class="social-icon">
+              <svg width="30" height="30" viewBox="0 0 24 24" fill="#FFD700">
+                <path
+                  d="M22 12a10 10 0 1 0-11.5 9.87v-6.99H7.9V12h2.6V9.8c0-2.57 1.53-4 3.87-4 1.12 0 2.29.2 2.29.2v2.52h-1.29c-1.27 0-1.67.79-1.67 1.6V12h2.84l-.45 2.88h-2.39v6.99A10 10 0 0 0 22 12z" />
+              </svg>
+            </a>
+
+            <a href="https://youtube.com/@yansnet_123" target="_blank" class="social-icon" style="margin-top: 5px;">
+              <svg width="32" height="30" viewBox="0 0 24 24" fill="#FFD700">
+                <path
+                  d="M23.5 6.2s-.2-1.7-.9-2.4c-.9-.9-1.9-.9-2.4-1C16.6 2.4 12 2.4 12 2.4h0s-4.6 0-8.2.4c-.5.1-1.5.1-2.4 1-.7.7-.9 2.4-.9 2.4S0 8.1 0 10v1.9c0 1.9.2 3.8.2 3.8s.2 1.7.9 2.4c.9.9 2.1.9 2.7 1 2 .2 8.2.4 8.2.4s4.6 0 8.2-.4c.5-.1 1.5-.1 2.4-1 .7-.7.9-2.4.9-2.4s.2-1.9.2-3.8V10c0-1.9-.2-3.8-.2-3.8zM9.7 15.3V8.7l6.4 3.3-6.4 3.3z" />
+              </svg>
+            </a>
+
+          </div>
+
+        </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="container footer-row">
+      <div>© <span id="year"></span> Yan's Tech. All rights reserved.</div>
+      <div style="display:flex;gap:15px;align-items:center">
+
+        <a href="https://wa.link/943lb1" target="_blank" class="social-icon" style="margin-right: -5px;">
+          <svg width="32" height="30" viewBox="0 0 32 32" fill="none">
+            <path fill="#FFD700"
+              d="M16.04 2.666C8.96 2.666 3.333 8.293 3.333 15.373c0 2.64.72 5.2 2.08 7.44L3 29l6.36-2.32c2.12 1.16 4.52 1.76 6.72 1.76h.02c7.08 0 12.707-5.627 12.707-12.707 0-3.4-1.333-6.6-3.76-9.027-2.427-2.427-5.627-3.76-9.027-3.76z" />
+            <path fill="#001A33"
+              d="M23.067 19.88c-.387-.193-2.293-1.133-2.653-1.253-.36-.12-.627-.187-.893.187-.267.373-1.027 1.253-1.253 1.52-.227.267-.453.28-.84.093-.387-.187-1.6-.587-3.053-1.873-1.13-.993-1.893-2.213-2.12-2.6-.227-.387-.024-.6.17-.787.173-.172.387-.453.58-.68.193-.227.26-.387.387-.64.127-.253.06-.48-.027-.667-.093-.187-.893-2.16-1.227-2.947-.32-.753-.647-.647-.893-.66-.227-.013-.48-.013-.733-.013-.253 0-.666.094-1.013.48-.347.387-1.333 1.307-1.333 3.187 0 1.88 1.36 3.693 1.547 3.947.187.253 2.68 4.093 6.533 5.733.913.393 1.627.627 2.187.8.92.293 1.76.253 2.427.153.74-.107 2.293-.94 2.613-1.853.32-.913.32-1.693.227-1.853-.093-.16-.36-.253-.747-.447z" />
+          </svg>
+        </a>
+
+        <a href="https://x.com/yansacad?t=vI8K5eYJEk5ueQpKklEEWA&s=08" target="_blank" class="social-icon">
+          <svg width="28" height="28" fill="#FFD700" viewBox="0 0 24 24">
+            <path
+              d="M18.244 2H21l-6.53 7.455L22 22h-6.244l-4.54-6.232L5.85 22H3l7.21-8.228L2 2h6.244l4.087 5.592L18.244 2zm-1.09 18h1.37L7.17 4h-1.4l10.383 16z" />
+          </svg>
+        </a>
+
+        <a href="https://www.linkedin.com/in/iyanuoluwa-olaitan-0632193a2/" target="_blank" class="social-icon"
+          style="margin-top: -5px;">
+          <svg width="28" height="28" fill="#FFD700" viewBox="0 0 24 24">
+            <path
+              d="M4.98 3.5C4.98 4.88 3.88 6 2.5 6S0 4.88 0 3.5 1.12 1 2.5 1 4.98 2.12 4.98 3.5zM0 8h5v16H0V8zm7.5 0h4.7v2.2h.1c.65-1.2 2.25-2.2 4.65-2.2 4.95 0 5.85 3.25 5.85 7.45V24h-5V15.5c0-2.05-.04-4.7-2.85-4.7-2.85 0-3.3 2.23-3.3 4.53V24h-5V8z" />
+          </svg>
+        </a>
+
+        <a href="https://facebook.com/share/16ZuG5uYYw" target="_blank" class="social-icon">
+          <svg width="30" height="30" viewBox="0 0 24 24" fill="#FFD700">
+            <path
+              d="M22 12a10 10 0 1 0-11.5 9.87v-6.99H7.9V12h2.6V9.8c0-2.57 1.53-4 3.87-4 1.12 0 2.29.2 2.29.2v2.52h-1.29c-1.27 0-1.67.79-1.67 1.6V12h2.84l-.45 2.88h-2.39v6.99A10 10 0 0 0 22 12z" />
+          </svg>
+        </a>
+
+        <a href="https://youtube.com/@yansnet_123" target="_blank" class="social-icon" style="margin-top: 5px;">
+          <svg width="32" height="30" viewBox="0 0 24 24" fill="#FFD700">
+            <path
+              d="M23.5 6.2s-.2-1.7-.9-2.4c-.9-.9-1.9-.9-2.4-1C16.6 2.4 12 2.4 12 2.4h0s-4.6 0-8.2.4c-.5.1-1.5.1-2.4 1-.7.7-.9 2.4-.9 2.4S0 8.1 0 10v1.9c0 1.9.2 3.8.2 3.8s.2 1.7.9 2.4c.9.9 2.1.9 2.7 1 2 .2 8.2.4 8.2.4s4.6 0 8.2-.4c.5-.1 1.5-.1 2.4-1 .7-.7.9-2.4.9-2.4s.2-1.9.2-3.8V10c0-1.9-.2-3.8-.2-3.8zM9.7 15.3V8.7l6.4 3.3-6.4 3.3z" />
+          </svg>
+        </a>
+
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js" defer></script>
+</body>
+
+</html>
